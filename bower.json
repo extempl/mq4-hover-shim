@@ -1,0 +1,30 @@
+{
+  "name": "mq4-hover-shim",
+  "description": "A shim for the Media Queries Level 4 `hover` @media feature",
+  "main": "dist/browser/mq4-hover-shim.js",
+  "authors": [
+    "extempl"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "media",
+    "query",
+    "queries",
+    "feature",
+    "features",
+    "MQ4",
+    "css",
+    "shim",
+    "polyfill",
+    "hover"
+  ],
+  "homepage": "https://github.com/extempl/mq4-hover-shim",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
