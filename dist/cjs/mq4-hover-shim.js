@@ -43,7 +43,7 @@ var canTrulyHover = undefined;
 function triggerEvent() {
     var event = document.createEvent('Event');
     event.initEvent('mq4hsChange', true, true);
-    event.bubbles = false;
+    // event.bubbles = false;
     event.trueHover = canTrulyHover;
 
     document.dispatchEvent(event);

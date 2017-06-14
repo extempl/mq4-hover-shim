@@ -1,5 +1,5 @@
 /*!
- * mq4-hover-shim v0.3.0
+ * mq4-hover-shim v0.4.0
  * https://github.com/twbs/mq4-hover-shim
  * Copyright (c) 2014-2015 Christopher Rebert
  * Licensed under the MIT License (https://github.com/twbs/mq4-hover-shim/blob/master/LICENSE).
@@ -51,7 +51,7 @@ var canTrulyHover = undefined;
 function triggerEvent() {
     var event = document.createEvent('Event');
     event.initEvent('mq4hsChange', true, true);
-    event.bubbles = false;
+    // event.bubbles = false;
     event.trueHover = canTrulyHover;
 
     document.dispatchEvent(event);
